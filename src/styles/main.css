@@ -1,0 +1,46 @@
+body{
+    background-image: url('../images/fundo.jpg');
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+}
+.menu-times, .menu-score{
+    color: red;
+}
+.menu-lives{
+    display: flex;
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.square{
+    height: 150px;
+    border: 1px solid black;
+    width: 150px;
+    background-color: aquamarine;
+}
+
+.enemy{
+    background-image: url('../images/ralph.jpg');
+    background-size: cover;
+}
